@@ -1,15 +1,18 @@
 {
   "name": "clone-disneyplus-luizs-santos",
   "version": "1.0.0",
+  "description": "Automação de tarefas usando Gulp.",
   "main": "index.js",
   "scripts": {
     "build": "gulp",
+    "watch": "gulp watch",
+    "styles": "gulp styles",
+    "images": "gulp images",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["gulp", "sass", "imagemin", "disneyplus", "automação"],
+  "author": "Luiz Henrique Santos",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-imagemin": "^7.1.0",
